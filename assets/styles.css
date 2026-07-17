@@ -440,6 +440,12 @@ li {
   gap: 16px;
 }
 
+.faq-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
 .policy-card p:last-child,
 .policy-card ul:last-child,
 .contact-card p:last-child {
@@ -472,7 +478,8 @@ li {
   }
 
   .article-grid,
-  .guide-list {
+  .guide-list,
+  .faq-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -516,7 +523,8 @@ li {
   }
 
   .article-grid,
-  .guide-list {
+  .guide-list,
+  .faq-list {
     grid-template-columns: 1fr;
   }
 
